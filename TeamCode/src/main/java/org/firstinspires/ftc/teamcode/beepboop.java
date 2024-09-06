@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 @TeleOp(name = "lights")
-public class lights extends OpMode {
+public class beepboop extends OpMode {
 
     Zegloub robot;
 
