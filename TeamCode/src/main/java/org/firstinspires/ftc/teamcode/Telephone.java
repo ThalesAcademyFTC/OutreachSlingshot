@@ -54,13 +54,13 @@ public class Telephone extends OpMode {
 
         if (gamepad1.left_stick_y > .25) {
             //robot moves forward
-            leftMotor.setPower(-.5);
+            leftMotor.setPower(-speed);
             rightMotor.setPower(-speed);
         } else if (gamepad1.left_stick_y < -.25) {
             //robot moves backward
-            leftMotor.setPower(.5);
+            leftMotor.setPower(speed);
             rightMotor.setPower(speed);
-        } else if (gamepad1.left_stick_x <+ -.25) {
+        } else if (gamepad1.left_stick_x < -.25) {
             //robot turns left
             leftMotor.setPower(-speed);
             rightMotor.setPower(speed);
